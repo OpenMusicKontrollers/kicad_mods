@@ -1,0 +1,88 @@
+PCBNEW-LibModule-V1  Sam 20 Apr 2013 15:33:03 CEST
+# encoding utf-8
+Units mm
+$INDEX
+SO8_narrow
+$EndINDEX
+$MODULE SO8_narrow
+Po 0 0 0 15 517298AB 00000000 ~~
+Li SO8_narrow
+Cd Module CMS SOJ 8 pins large
+Kw CMS SOJ
+Sc 0
+AR /514D6B34
+Op 0 0 0
+At SMD
+T0 0 -1.27 1.143 1.016 0 0.127 N I 21 N "U7"
+T1 0 -1.27 1.016 1.016 0 0.127 N V 21 N "24AA025E48"
+DS -2.54 -1.905 2.54 -1.905 0.15 21
+DS 2.54 -1.905 2.54 1.905 0.15 21
+DS 2.54 1.905 -2.54 1.905 0.15 21
+DS -2.54 1.905 -2.54 -1.905 0.15 21
+DS -2.54 -0.762 -2.032 -0.762 0.127 21
+DS -2.032 -0.762 -2.032 0.508 0.127 21
+DS -2.032 0.508 -2.54 0.508 0.127 21
+$PAD
+Sh "8" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po -1.905 -2.7
+$EndPAD
+$PAD
+Sh "7" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 -2.7
+$EndPAD
+$PAD
+Sh "6" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "SCL"
+Po 0.635 -2.7
+$EndPAD
+$PAD
+Sh "5" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "SDA"
+Po 1.905 -2.7
+$EndPAD
+$PAD
+Sh "4" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 1.905 2.7
+$EndPAD
+$PAD
+Sh "3" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 0.635 2.7
+$EndPAD
+$PAD
+Sh "2" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po -0.635 2.7
+$EndPAD
+$PAD
+Sh "1" R 0.6 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+3.3V"
+Po -1.905 2.7
+$EndPAD
+$SHAPE3D
+Na "smd/cms_so8.wrl"
+Sc 0.5 0.38 0.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SO8_narrow
+$EndLIBRARY

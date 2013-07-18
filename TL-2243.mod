@@ -1,0 +1,67 @@
+PCBNEW-LibModule-V1  Mit 29 Mai 2013 19:07:01 CEST
+# encoding utf-8
+Units mm
+$INDEX
+TL-2243
+$EndINDEX
+$MODULE TL-2243
+Po 0 0 0 15 51A635B2 00000000 ~~
+Li TL-2243
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6 1 1 0 0.15 N V 21 N "TL-2243"
+T1 0 -3 1 1 0 0.15 N V 21 N "VAL**"
+DS 4 3 4 -1 0.15 24
+DS 4 -5 4 -4 0.15 24
+DS -4 3 -4 -1 0.15 24
+DS -4 -5 -4 -4 0.15 24
+DS -2 3 -2 7 0.15 24
+DS -2 7 2 7 0.15 24
+DS 2 7 2 3 0.15 24
+DS -4 3 4 3 0.15 24
+DS 4 -5 -4 -5 0.15 24
+$PAD
+Sh "4" O 1.2 1.8 0 0 0
+Dr 0.8 0 0.3
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.875 0
+$EndPAD
+$PAD
+Sh "3" O 1.2 1.8 0 0 0
+Dr 0.8 0 0.3
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.875 0
+$EndPAD
+$PAD
+Sh "2" O 1.2 1.8 0 0 0
+Dr 0.8 0 0.3
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "1" O 1.2 1.8 0 0 0
+Dr 0.8 0 0.3
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "" C 1.7 1.7 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.5 -2.26
+$EndPAD
+$PAD
+Sh "" C 1.7 1.7 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.5 -2.26
+$EndPAD
+$EndMODULE TL-2243
+$EndLIBRARY

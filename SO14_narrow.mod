@@ -1,0 +1,130 @@
+PCBNEW-LibModule-V1  Sam 20 Apr 2013 15:49:30 CEST
+# encoding utf-8
+Units mm
+$INDEX
+SO14_narrow
+$EndINDEX
+$MODULE SO14_narrow
+Po 0 0 0 15 51729CC6 00000000 ~~
+Li SO14_narrow
+Cd Module CMS SOJ 14 pins Large
+Kw CMS SOJ
+Sc 0
+AR /514D651F
+Op 0 0 0
+At SMD
+T0 0 -1.27 1.016 1.143 0 0.127 N I 21 N "U6"
+T1 0 0 1.016 1.016 0 0.127 N V 21 N "74HCT08"
+DS -5.08 1.905 -5.08 -1.905 0.15 21
+DS -5.08 -1.905 5.08 -1.905 0.15 21
+DS 5.08 -1.905 5.08 1.905 0.15 21
+DS -5.08 1.905 5.08 1.905 0.15 21
+DS -5.08 -0.508 -4.445 -0.508 0.2032 21
+DS -4.445 -0.508 -4.445 0.762 0.2032 21
+DS -4.445 0.762 -5.08 0.762 0.2032 21
+$PAD
+Sh "1" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "S0"
+Po -3.81 2.7
+$EndPAD
+$PAD
+Sh "2" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "S0"
+Po -2.54 2.7
+$EndPAD
+$PAD
+Sh "3" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "Y0"
+Po -1.27 2.7
+$EndPAD
+$PAD
+Sh "4" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "S1"
+Po 0 2.7
+$EndPAD
+$PAD
+Sh "5" R 0.5 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "S1"
+Po 1.27 2.7
+$EndPAD
+$PAD
+Sh "6" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "Y1"
+Po 2.54 2.7
+$EndPAD
+$PAD
+Sh "7" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 3.81 2.7
+$EndPAD
+$PAD
+Sh "8" R 0.5 1.55 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "Y2"
+Po 3.81 -2.7
+$EndPAD
+$PAD
+Sh "9" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "S2"
+Po 2.54 -2.7
+$EndPAD
+$PAD
+Sh "11" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "Y3"
+Po 0 -2.7
+$EndPAD
+$PAD
+Sh "12" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "S3"
+Po -1.27 -2.7
+$EndPAD
+$PAD
+Sh "13" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "S3"
+Po -2.54 -2.7
+$EndPAD
+$PAD
+Sh "14" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5V"
+Po -3.81 -2.7
+$EndPAD
+$PAD
+Sh "10" R 0.55 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "S2"
+Po 1.27 -2.7
+$EndPAD
+$SHAPE3D
+Na "smd/cms_so14.wrl"
+Sc 0.5 0.4 0.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SO14_narrow
+$EndLIBRARY

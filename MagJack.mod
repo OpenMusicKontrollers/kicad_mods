@@ -1,0 +1,141 @@
+PCBNEW-LibModule-V1  Mit 29 Mai 2013 19:05:59 CEST
+# encoding utf-8
+Units mm
+$INDEX
+MagJack
+$EndINDEX
+$MODULE MagJack
+Po 0 0 0 15 51A63574 00000000 ~~
+Li MagJack
+Sc 0
+AR 
+Op 0 0 0
+T0 5.08 -2.54 1 1 0 0.15 N V 21 N "MagJack"
+T1 5.08 0 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.54 8.763 13.97 8.763 0.15 24
+DS -2.54 -10.795 13.97 -10.795 0.15 24
+DS -2.54 10.795 13.97 10.795 0.15 24
+DS 10.16 8.763 10.16 6.223 0.15 24
+DS 8.89 8.763 8.89 6.223 0.15 24
+DS 7.62 8.763 7.62 6.223 0.15 24
+DS 6.35 8.763 6.35 6.223 0.15 24
+DS 1.27 8.763 1.27 6.223 0.15 24
+DS 2.54 8.763 2.54 6.223 0.15 24
+DS 3.81 8.763 3.81 6.223 0.15 24
+DS 5.08 8.763 5.08 6.223 0.15 24
+DS 13.97 10.795 13.97 -10.795 0.15 24
+DS -2.54 -10.795 -2.54 10.795 0.15 24
+$PAD
+Sh "" C 3.2 3.2 0 0 0
+Dr 3.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "" C 3.2 3.2 0 0 0
+Dr 3.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -6.35
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -6.35
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -6.35
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -6.35
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -8.89
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -8.89
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -8.89
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 -8.89
+$EndPAD
+$PAD
+Sh "13" C 2.4 2.4 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.46 -3.05
+$EndPAD
+$PAD
+Sh "13" C 2.4 2.4 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.03 -3.05
+$EndPAD
+$PAD
+Sh "YA" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.91 4.06
+$EndPAD
+$PAD
+Sh "GK" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.34 4.06
+$EndPAD
+$PAD
+Sh "GA" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.8 4.06
+$EndPAD
+$PAD
+Sh "YK" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.905 4.06
+$EndPAD
+$EndMODULE MagJack
+$EndLIBRARY
