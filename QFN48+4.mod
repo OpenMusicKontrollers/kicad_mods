@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Die 02 Jul 2013 16:39:59 CEST
+PCBNEW-LibModule-V1  Sam 17 Aug 2013 09:59:51 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,14 +6,14 @@ QFN48+21
 QFN48+4
 $EndINDEX
 $MODULE QFN48+21
-Po 0 0 0 15 51D2E63C 00000000 ~~
+Po 0 0 0 15 520F2D69 00000000 ~~
 Li QFN48+21
 Sc 0
 AR /519D133E
 Op 0 0 0
 At SMD
 T0 4.064 3.81 0.762 0.762 0 0.127 N I 21 N "U9"
-T1 5 -3.7 0.7 0.7 0 0.127 N V 21 N "W5200"
+T1 2.54 -5.08 0.7 0.7 0 0.127 N V 21 N "W5200"
 DS -2.8 -2.2 -2.2 -2.8 0.15 21
 DS -2.2 -2.8 2.2 -2.8 0.15 21
 DS 2.2 -2.8 2.8 -2.2 0.15 21
@@ -27,21 +27,21 @@ $PAD
 Sh "1" O 1.2 0.25 0 0 0
 Dr 0 -0.2 0
 At SMD N 00888000
-Ne 12 "N-0000062"
+Ne 11 "N-0000063"
 Po -3.5 -2.75
 $EndPAD
 $PAD
 Sh "2" O 1.2 0.25 0 0 0
 Dr 0 -0.2 0
 At SMD N 00888000
-Ne 11 "N-0000061"
+Ne 12 "N-0000064"
 Po -3.5 -2.25
 $EndPAD
 $PAD
 Sh "3" O 1.2 0.25 0 0 0
 Dr 0 -0.2 0
 At SMD N 00888000
-Ne 9 "N-0000059"
+Ne 4 "N-0000011"
 Po -3.5 -1.75
 $EndPAD
 $PAD
@@ -62,14 +62,14 @@ $PAD
 Sh "6" O 1.2 0.25 0 0 0
 Dr 0 -0.2 0
 At SMD N 00888000
-Ne 5 "N-0000043"
+Ne 5 "N-0000012"
 Po -3.5 -0.25
 $EndPAD
 $PAD
 Sh "7" O 1.2 0.25 0 0 0
 Dr 0 -0.2 0
 At SMD N 00888000
-Ne 8 "N-0000058"
+Ne 6 "N-0000015"
 Po -3.5 0.25
 $EndPAD
 $PAD
@@ -104,7 +104,7 @@ $PAD
 Sh "12" O 1.2 0.25 0 0 0
 Dr 0 -0.2 0
 At SMD N 00888000
-Ne 10 "N-000006"
+Ne 9 "N-0000049"
 Po -3.5 2.75
 $EndPAD
 $PAD
@@ -216,7 +216,7 @@ $PAD
 Sh "16" O 0.25 1.2 0 0 0
 Dr 0 0 0.2
 At SMD N 00888000
-Ne 13 "N-000009"
+Ne 7 "N-0000044"
 Po -1.25 3.5
 $EndPAD
 $PAD
@@ -251,21 +251,21 @@ $PAD
 Sh "29" O 1.2 0.25 0 0 0
 Dr 0 0.2 0
 At SMD N 00888000
-Ne 4 "N-000003"
+Ne 13 "N-000008"
 Po 3.5 0.75
 $EndPAD
 $PAD
 Sh "30" O 1.2 0.25 0 0 0
 Dr 0 0.2 0
 At SMD N 00888000
-Ne 6 "N-0000046"
+Ne 10 "N-0000062"
 Po 3.5 0.25
 $EndPAD
 $PAD
 Sh "31" O 1.2 0.25 0 0 0
 Dr 0 0.2 0
 At SMD N 00888000
-Ne 7 "N-000005"
+Ne 8 "N-0000048"
 Po 3.5 -0.25
 $EndPAD
 $PAD
@@ -363,168 +363,168 @@ $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po -1.25 -1.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 0 -1.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 1.25 -1.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po -1.25 -1.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 0 -1.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 1.25 -1.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po -1.25 -0.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 0 -0.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 1.25 -0.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po -1.25 -0.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 0 0.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 1.25 0.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po -1.25 1.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 0 1.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 1.25 1.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po -1.25 1.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 0 1.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 1.25 1.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po -1.25 0.25
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po -1.25 0.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 0 0.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 0 -0.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 1.25 -0.75
 $EndPAD
 $PAD
 Sh "48" R 1 0.25 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 1.25 0.75
 $EndPAD
 $EndMODULE QFN48+21
