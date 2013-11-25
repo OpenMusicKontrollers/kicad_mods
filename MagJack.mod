@@ -1,17 +1,17 @@
-PCBNEW-LibModule-V1  Mit 29 Mai 2013 19:05:59 CEST
+PCBNEW-LibModule-V1  Sam 23 Nov 2013 17:34:15 CET
 # encoding utf-8
 Units mm
 $INDEX
 MagJack
 $EndINDEX
 $MODULE MagJack
-Po 0 0 0 15 51A63574 00000000 ~~
+Po 0 0 0 15 5290D8F9 00000000 ~~
 Li MagJack
 Sc 0
-AR 
+AR /526C03F3/526BE44A
 Op 0 0 0
-T0 5.08 -2.54 1 1 0 0.15 N V 21 N "MagJack"
-T1 5.08 0 1 1 0 0.15 N V 21 N "VAL**"
+T0 5.08 -2.54 0.8 0.8 0 0.2 N I 21 N "J51"
+T1 5.08 0 0.8 0.8 0 0.2 N I 21 N "RJ45-TRANSFO"
 DS -2.54 8.763 13.97 8.763 0.15 24
 DS -2.54 -10.795 13.97 -10.795 0.15 24
 DS -2.54 10.795 13.97 10.795 0.15 24
@@ -28,14 +28,14 @@ DS -2.54 -10.795 -2.54 10.795 0.15 24
 $PAD
 Sh "" C 3.2 3.2 0 0 0
 Dr 3.2 0 0
-At STD N 00E0FFFF
+At HOLE N 00E0FFFF
 Ne 0 ""
 Po 11.43 0
 $EndPAD
 $PAD
 Sh "" C 3.2 3.2 0 0 0
 Dr 3.2 0 0
-At STD N 00E0FFFF
+At HOLE N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
@@ -43,21 +43,21 @@ $PAD
 Sh "1" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 10 "TXP"
 Po 1.27 -6.35
 $EndPAD
 $PAD
 Sh "3" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 9 "TXN"
 Po 3.81 -6.35
 $EndPAD
 $PAD
 Sh "5" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 7 "RCT"
 Po 6.35 -6.35
 $EndPAD
 $PAD
@@ -71,28 +71,28 @@ $PAD
 Sh "2" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 8 "TCT"
 Po 2.54 -8.89
 $EndPAD
 $PAD
 Sh "4" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 4 "N-0000068"
 Po 5.08 -8.89
 $EndPAD
 $PAD
 Sh "6" C 1.5 1.5 0 0 0
 Dr 0.9 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 3 "N-0000067"
 Po 7.62 -8.89
 $EndPAD
 $PAD
-Sh "8" C 1.5 1.5 0 0 0
-Dr 0.9 0 0
+Sh "8" O 2 1.5 0 0 0
+Dr 0.9 0.25 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 2 "GND"
 Po 10.16 -8.89
 $EndPAD
 $PAD
@@ -113,28 +113,28 @@ $PAD
 Sh "YA" C 1.6 1.6 0 0 0
 Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "+3.3V"
 Po -0.91 4.06
 $EndPAD
 $PAD
 Sh "GK" C 1.6 1.6 0 0 0
 Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 5 "N-0000078"
 Po 12.34 4.06
 $EndPAD
 $PAD
 Sh "GA" C 1.6 1.6 0 0 0
 Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "+3.3V"
 Po 9.8 4.06
 $EndPAD
 $PAD
 Sh "YK" C 1.6 1.6 0 0 0
 Dr 1 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 6 "N-0000084"
 Po 1.905 4.06
 $EndPAD
 $EndMODULE MagJack
