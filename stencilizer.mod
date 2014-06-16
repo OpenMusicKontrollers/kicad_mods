@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  Mon 09 Dez 2013 15:59:30 CET
+PCBNEW-LibModule-V1  Mon 16 Jun 2014 08:12:46 CEST
 # encoding utf-8
 Units mm
 $INDEX
 stencilizer
 $EndINDEX
 $MODULE stencilizer
-Po 0 0 0 15 52A5DACB 00000000 ~~
+Po 0 0 0 15 539E8AC3 00000000 ~~
 Li stencilizer
 Sc 0
 AR 
@@ -21,70 +21,70 @@ DS 0 86 110 86 0.1 24
 DS 110 86 110 0 0.1 24
 DS 110 0 0 0 0.1 24
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 15 7.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 35 7.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 55 7.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 75 7.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 95 7.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 15 77.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 35 77.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 55 77.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 75 77.5
 $EndPAD
 $PAD
-Sh "" R 10 3 0 0 0
+Sh "" R 11.161 3.3833 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
